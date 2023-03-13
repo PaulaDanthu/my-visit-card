@@ -1,16 +1,9 @@
 <template>
-    <main
-        class="
-            tw-bg-black 
-            tw-text-white 
-            tw-font-mono
-            ">
         <welcome-msg />
         <about-me />
         <my-stack />
         <contact-me />
-        <my-footer />
-    </main>
+        <my-footer />    
 </template>
 
 <script>
@@ -46,11 +39,4 @@ export default {
 </script>
 
 <style>
-    .light-img {
-        content: url('../assets/light.jpg')
-    }
-
-    .dark-img {
-        content: url('../assets/dark.jpg')
-    }
 </style>

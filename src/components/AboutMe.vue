@@ -8,6 +8,7 @@
         <h2
             class="
                 tw-mb-8
+                tw-text-2xl
             ">#about</h2>
             <p>My name is Paula and I'm a junior frontend developer. I'm an autodidact passionate with code living near Grenoble, France. I create websites and applications in different technologies. I love JavaScript and at this moment I'm discovering Vue.js. In CSS I like using Bootstrap and Tailwind and also know a bit in PHP, Symfony and mySQL. I am able to write a website from a to z and to deploy it. 
             </p>

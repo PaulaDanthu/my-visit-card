@@ -1,5 +1,11 @@
 <template>
-  <div id="app">
+  <div 
+    id="app"
+    class="
+            tw-bg-black 
+            tw-text-white 
+            tw-font-mono
+            ">
     <nav 
         class="
             tw-flex 
@@ -14,7 +20,7 @@
                 tw-w-10
                 "> 
             <img 
-                src="../public/images/light.jpg"
+                src="../images/light.jpg"
                 alt="theme-switcher" 
                 class="
                     tw-w-10
@@ -28,6 +34,7 @@
                 tw-no-underline
                 tw-mr-10
                 tw-text-xl
+                hover:tw-text-white
             ">home</router-link>
         </nav>
 

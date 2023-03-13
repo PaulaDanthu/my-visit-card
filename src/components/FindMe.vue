@@ -9,6 +9,7 @@
         <h2 
             class="
                 tw-mb-8
+                tw-text-2xl
             ">#find-me</h2>
         <ul 
             class="
@@ -30,8 +31,8 @@
 </template>
 
 <script>
-    import githubLogo from '../../public/images/github.jpg'
-    import linkedinLogo from '../../public/images/linkedin.jpg'
+    import githubLogo from '/images/github.jpg'
+    import linkedinLogo from '/images/linkedin.jpg'
 
     const socialArray = [
         {

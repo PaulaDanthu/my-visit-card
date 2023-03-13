@@ -6,7 +6,7 @@
         ">
         <section 
             class="
-                tw-flex 
+                tw-flex
                 tw-flex-row
             ">
             <div 
@@ -16,12 +16,16 @@
                 <h2 
                     class="
                         tw-mb-8
+                        tw-text-2xl
                     ">#contact-me</h2>
                 <p>You can contact me via this form. Feel free to write about anything you like 😃</p>
                 <form
                     action="https://formspree.io/f/xqkoprdj"
                     method="POST"
                     @submit="submitForm"
+                    class="
+                        tw-mt-10
+                    "
                 >
                     <label>email:</label>
                     <input 
