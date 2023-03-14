@@ -53,4 +53,4 @@ export default {
     }
   }
 </script>
-
+<style src="../public/style.css"></style>
