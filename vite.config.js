@@ -9,4 +9,7 @@ export default defineConfig({
   },
   base: '/my-visit-card/',
   plugins: [vue()],
+  server: {
+    host: 'localhost', 
+    }
 })
