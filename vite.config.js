@@ -7,5 +7,6 @@ export default defineConfig({
   alias:{
     '@' : path.resolve(__dirname, '.src')
   },
+  base: '/my-visit-card/',
   plugins: [vue()],
 })
