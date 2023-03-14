@@ -8,8 +8,5 @@ export default defineConfig({
     '@' : path.resolve(__dirname, '.src')
   },
   base: '/my-visit-card/',
-  plugins: [vue()],
-  server: {
-    host: 'localhost', 
-    }
+  plugins: [vue()]
 })
