@@ -132,5 +132,4 @@
 
 </style>
 
-// to do : 
-    //more bootstrap
+

@@ -21,7 +21,7 @@
 </template>
 
 <script>
-    import image from '/images/paula.jpg'
+    import image from '../../public/images/paula.jpg'
 
     export default {
     name: 'WelcomeMsg',

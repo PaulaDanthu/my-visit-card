@@ -46,12 +46,12 @@
 </template>
 
 <script>
-    import htmlLogo from "/images/html.jpg"
-    import cssLogo from "/images/css.jpg"
-    import jsLogo from "/public/images/js.jpg"
-    import vueLogo from "/public/images/vue.jpg"
-    import tailwindLogo from "/public/images/tailwind.jpg"
-    import bootstrapLogo from "/public/images/bootstrap.jpg"
+    import htmlLogo from "../../public/images/html.jpg"
+    import cssLogo from "../../public/images/css.jpg"
+    import jsLogo from "../../public/images/js.jpg"
+    import vueLogo from "../../public/images/vue.jpg"
+    import tailwindLogo from "../../public/images/tailwind.jpg"
+    import bootstrapLogo from "../../public/images/bootstrap.jpg"
 
 const techArray = [ 
     {

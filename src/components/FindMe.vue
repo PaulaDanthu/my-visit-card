@@ -31,8 +31,8 @@
 </template>
 
 <script>
-    import githubLogo from '/images/github.jpg'
-    import linkedinLogo from '/images/linkedin.jpg'
+    import githubLogo from '../../public/images/github.jpg'
+    import linkedinLogo from '../../public/images/linkedin.jpg'
 
     const socialArray = [
         {

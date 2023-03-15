@@ -20,7 +20,7 @@
                 tw-w-10
                 "> 
             <img 
-                src="../images/light.jpg"
+                src="../../public/images/light.jpg"
                 alt="theme-switcher" 
                 class="
                     tw-w-10
