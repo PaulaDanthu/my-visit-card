@@ -3,7 +3,7 @@ import HomePage from '../views/HomePage.vue'
 
 
 const routes = [
-    {path: '/my-visit-card/', name: 'HomePage', component: HomePage}
+    {path: '/', name: 'HomePage', component: HomePage}
 ]
 
 const router = createRouter({
