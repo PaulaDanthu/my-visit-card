@@ -4,7 +4,9 @@ const path = require('path')
 
 // https://vitejs.dev/config/
 export default defineConfig({
- 
+  alias:{
+    '@' : path.resolve(__dirname, '.src')
+  },
   base: '/',
   plugins: [vue()]
 })
