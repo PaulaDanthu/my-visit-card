@@ -11,5 +11,5 @@ export default defineConfig({
   base: '/my-visit-card/',
   plugins: 
     [vue()],
-    [splitVendorChunkPlugin()]
+    [splitVendorChunkPlugin()],
 })
