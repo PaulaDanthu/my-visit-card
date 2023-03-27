@@ -44,6 +44,7 @@
   </div>
 </template>
 
+<script src="../src/main"></script>
 <script>
 
 export default {
@@ -53,4 +54,5 @@ export default {
     }
   }
 </script>
-
+<style src="../public/style.css">
+</style>
