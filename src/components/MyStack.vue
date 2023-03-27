@@ -1,7 +1,8 @@
 <template>
     <div 
         class="
-            tw-mx-36
+            tw-mx-5
+            md:tw-mx-36
             tw-mt-28
             ">
         <h2
