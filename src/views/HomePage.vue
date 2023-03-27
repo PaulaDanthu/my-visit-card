@@ -38,5 +38,5 @@ export default {
 
 </script>
 
-<style>
+<style src="../../public/style.css">
 </style>
