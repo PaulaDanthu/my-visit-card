@@ -6,6 +6,7 @@
         <my-footer />    
 </template>
 
+<script src="../src/main"></script>
 <script>
 import WelcomeMsg from '../components/WelcomeMsg.vue'
 import AboutMe from '../components/AboutMe.vue'
@@ -36,7 +37,6 @@ export default {
 }
 
 
-</script>
 
 <style>
 </style>

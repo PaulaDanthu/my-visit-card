@@ -44,7 +44,6 @@
   </div>
 </template>
 
-<script src="../src/main"></script>
 <script>
 
 export default {
