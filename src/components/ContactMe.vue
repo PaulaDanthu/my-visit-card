@@ -1,8 +1,10 @@
 <template>
     <div 
         class="
-            tw-mx-36
+            tw-mx-5
+            tw-text-justify
             tw-mt-28
+            md:tw-mx-36
         ">
         <section 
             class="
