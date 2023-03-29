@@ -34,13 +34,6 @@
     }
 </script>
 
-<style scoped>
+<style>
     
-
-    @media (max-width: 1024px) {
-        div {
-        padding-left: 20px;
-        padding-right: 20px;
-        }
-    }
 </style>

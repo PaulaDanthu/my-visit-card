@@ -4,16 +4,18 @@
             tw-mx-5
             tw-text-justify
             tw-mt-28
-            md:tw-mx-36
+            lg:tw-mx-36
         ">
         <section 
             class="
                 tw-flex
-                tw-flex-row
+                tw-flex-col
+                lg:tw-flex-row
             ">
             <div 
                 class="
-                    tw-w-2/4
+                    tw-w-full
+                    lg:tw-w-2/4
                 ">
                 <h2 
                     class="
@@ -67,13 +69,14 @@
                         ">
                 </form>
             </div>
-            <div>
-                <find-me 
-                class="
-                    tw-w-2/4
-                    tw-ml-6
-                "/>
-            </div>
+            <find-me 
+            class="
+                tw-w-full
+                lg:tw-w-2/4
+                lg:tw-ml-40
+                lg:tw-mt-0
+                tw-mt-20
+            "/>
         </section>
     </div>
 </template>
@@ -106,31 +109,6 @@
 </script>
 
 <style scoped>
-
-@media (max-width: 1024px) {
-        .box {
-            padding-left: 0px;
-            padding-right: 0px;
-        
-        }
-        section {
-            padding-left: 20px;
-            padding-right: 20px;
-            flex-direction: column !important;
-        }
-
-        .contact {
-            width: 100%;
-        }
-        .find-me {
-            margin-top: 50px;
-            margin-left: 0px;
-            width: 100%;
-        }
-        label, input, .submit-button {
-            font-size: 20px;
-        }
-    }
 
 </style>
 

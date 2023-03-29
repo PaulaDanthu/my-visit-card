@@ -15,7 +15,8 @@
             class="
             tw-flex
             tw-flex-wrap
-            tw-pl-0
+            tw-justify-center
+            md:tw-justify-start
             tw-list-none
             tw-cursor-pointer
             ">
@@ -154,19 +155,4 @@ const techArray = [
     background-color: #563d7cDD;
 }
 
-@media (max-width: 1024px) {
-        div {
-            padding-left: 0px;
-            padding-right: 0px;
-        }
-
-        .technologies {
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-
-        ul {
-            justify-content: center;
-        }
-    }
 </style>

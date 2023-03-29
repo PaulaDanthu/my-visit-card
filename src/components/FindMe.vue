@@ -22,7 +22,8 @@
                 :key="social"
                 class="
                     tw-pr-6
-                    tw-w-32
+                    tw-w-16
+                    lg:tw-w-32
                 ">
                 <a :href="social.website"><img :src="social.logo" /></a>
             </li>

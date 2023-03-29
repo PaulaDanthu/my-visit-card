@@ -12,8 +12,10 @@
             ">
         <h1 
             class="
-                tw-w-80
-                tw-text-3xl
+                tw-w-1/2
+                md:tw-w-80
+                tw-text-2xl
+                md:tw-text-3xl
                 tw-text-center
                 tw-mt-6
         ">Hi! I'm Paula and I'm a frontend developer.</h1>
@@ -34,17 +36,7 @@
 </script>
 
 <style scoped>
-    
-    @media (max-width: 1024px) {
-        img {
-            width: 250px;
-        }
-
-        h1 {
-            width: 60%;
-            font-size: 40px;
-        }
-    }
+   
 
 
 </style>
