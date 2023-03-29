@@ -9,6 +9,5 @@ export default defineConfig({
   },
   base: '/',
   plugins: 
-    [vue()],
-    chunkSplitPlugin()
+    [vue()]
 })
