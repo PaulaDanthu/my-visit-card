@@ -4,7 +4,7 @@
             tw-mx-5
             tw-text-justify
             tw-mt-28
-            md:tw-mx-36
+            lg:tw-mx-36
         ">
         <h2
             class="
