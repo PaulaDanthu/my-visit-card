@@ -23,7 +23,7 @@
                 class="
                     tw-pr-6
                     tw-w-16
-                    lg:tw-w-32
+                    lg:tw-w-20
                 ">
                 <a :href="social.website"><img :src="social.logo" /></a>
             </li>
