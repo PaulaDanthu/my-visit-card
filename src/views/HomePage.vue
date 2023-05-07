@@ -4,6 +4,8 @@
             tw-bg-black 
             tw-text-white 
             tw-font-mono
+            tw-dark:bg-white
+            tw-dark:text-black
             ">
         <nav 
             class="
@@ -11,12 +13,13 @@
                 tw-justify-between
                 tw-pt-6
                 ">
-            <button 
-                @click="toggleDark()" 
+            <button  
+                @click="toggleDark()"
                 class="
                     tw-bg-transparent 
                     tw-border-transparent 
                     tw-w-10
+                    tw-dark:bg-white
                     "> 
                 <img 
                     src="../../public/images/light.jpg"
@@ -43,6 +46,8 @@
             tw-bg-black 
             tw-text-white
             tw-font-mono
+            tw-dark:bg-white
+            tw-dark:text-black
             ">
         <welcome-msg />
         <about-me />
@@ -60,10 +65,9 @@ import MyStack from '../components/MyStack.vue'
 import ContactMe from '../components/ContactMe.vue'
 import MyFooter from '../components/MyFooter.vue'
 
-import { useDark, useToggle} from '@vueuse/core'
+import { useDark, useToggle } from '@vueuse/core'
 
-const isDark = useDark()
-const toggleDark = useToggle(isDark)
+
 
 
 export default {
@@ -74,6 +78,10 @@ export default {
     'my-stack': MyStack,
     'contact-me': ContactMe,
     'my-footer': MyFooter
+    },
+    setup(){
+        const isDark = useDark()
+        const toggleDark = useToggle(isDark)
     }
 }
 
